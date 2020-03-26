@@ -6,6 +6,5 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              jupyter-leaflet \
                              dask-labextension
 conda uninstall -y --force dask-core
-pip install git+https://github.com/TomAugspurger/dask.git@old-order
-
+pip install git+https://github.com/eriknw/dask.git@fix_order_gh5859
 #EOF
